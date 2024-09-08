@@ -29,7 +29,7 @@ request some faucet from the [Allora Testnet Faucet](https://faucet.testnet-1.te
 
 ## Run with custom model and pass your mnemonic phrase to it
 ```
-curl -LOs https://raw.githubusercontent.com/sarox0987/allora-worker/main/custom-allora.sh && bash ./custom-allora.sh
+curl -LOs https://raw.githubusercontent.com/EsiNakamoto/allora-worker-hug/main/custom-allora.sh && bash ./custom-allora.sh
 ```
 <img width="937" alt="Screenshot 2024-08-13 at 10 35 47 PM" src="https://github.com/user-attachments/assets/92ea736b-3323-480e-a1f2-560bc96e7ea8">
 
@@ -48,7 +48,7 @@ curl http://localhost:8001/inference/ETH
 
 ## Run with hugging model and pass your mnemonic phrase to it
 ```
-curl -LOs https://raw.githubusercontent.com/sarox0987/allora-worker/main/hugging-allora.sh && bash ./hugging-allora.sh
+curl -LOs https://raw.githubusercontent.com/EsiNakamoto/allora-worker/main/hugging-allora.sh && bash ./hugging-allora.sh
 ```
 
 make sure both `hugging-worker` & `hugging-inference` containers are running with `docker ps`
