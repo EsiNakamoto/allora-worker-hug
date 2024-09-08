@@ -48,7 +48,7 @@ curl http://localhost:8001/inference/ETH
 
 ## Run with hugging model and pass your mnemonic phrase to it
 ```
-curl -LOs https://raw.githubusercontent.com/EsiNakamoto/allora-worker/main/hugging-allora.sh && bash ./hugging-allora.sh
+curl -LOs https://raw.githubusercontent.com/EsiNakamoto/allora-worker-hug/main/hugging-allora.sh && bash ./hugging-allora.sh
 ```
 
 make sure both `hugging-worker` & `hugging-inference` containers are running with `docker ps`
